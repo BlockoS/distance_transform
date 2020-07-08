@@ -30,7 +30,5 @@ make
 ```
 On a Linux system, the Makefile will generate a static library `libdistance.a`. 
 
-`make doc` will generate the documentation with [DoxyGen](http://www.stack.nl/~dimitri/doxygen/).
-
 ## License ##
 This project is licensed under the MIT License, see LICENSE for more information.
