@@ -14,6 +14,7 @@ See `distance.h` for a complete documentation.
 The `test` directory contains the source code of a small program that generates a distance map from an input image.
 
 <img src="test/data/a.png" width="256px"/> <img src="test/result/a.png" width="256px"/> 
+
 <img src="test/data/hello.png" width="256px"/> <img src="test/result/hello.png" width="256px"/> 
 
 Image reading and writing libraries [stb_image.h, stb_image_write.h](https://github.com/nothings/stb/) by Sean Barrett (public domain).
