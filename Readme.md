@@ -28,9 +28,8 @@ A typical usage of CMake may be:
 mkdir build
 cd build
 cmake ..
-make
+cmake --build .
 ```
-On a Linux system, the Makefile will generate a static library `libdistance.a`. 
 
 ## License ##
 This project is licensed under the MIT License, see LICENSE for more information.
