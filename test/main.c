@@ -35,11 +35,14 @@ int main(int argc, char **argv) {
 		return EXIT_FAILURE;
 	}
 
-	distance = distance_transform(input, width, height);
+	distance = (float*)malloc(width * height * sizeof(float));
 	if(distance == NULL) {
+		fprintf(stderr, "Failed to allocate distance map\n");
 		return EXIT_FAILURE;
 	}
 
+	distance_transform(input, distance, width, height);
+	
 	// find the maximum distance in order to scale the values to [0,1]
 	float max_dist = -1.f;
 	float *ptr = distance;
@@ -68,7 +71,7 @@ int main(int argc, char **argv) {
 
 	stbi_image_free(input);
 
-	DISTANCE_TRANSFORM_FREE(distance);
+	free(distance);
 
 	free(output);
 
