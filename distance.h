@@ -14,7 +14,7 @@
  
  "Finding the Skeleton of 2D Shape and Contours: Implementation of Hamilton-Jacobi Skeleton"
  by Yuchen He, Sung Ha Kang, Luis Álvarez (2020)
- https://www.ipol.im/pub/pre/296/preprint.pdf
+ http://www.ipol.im/pub/art/2021/296/
   
  * Building:
  Before including this file, add the following line in the file where you want to have the 

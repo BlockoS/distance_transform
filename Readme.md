@@ -8,7 +8,7 @@ See `distance.h` for a complete documentation.
    https://www.math.uci.edu/~zhao/homepage/research_files/FSM.pdf
  * "Finding the Skeleton of 2D Shape and Contours: Implementation of Hamilton-Jacobi Skeleton"
    by Yuchen He, Sung Ha Kang, Luis Álvarez (2020)
-   https://www.ipol.im/pub/pre/296/preprint.pdf
+   http://www.ipol.im/pub/art/2021/296/
 
 ## Example ##
 The `test` directory contains the source code of a small program that generates a distance map from an input image.
