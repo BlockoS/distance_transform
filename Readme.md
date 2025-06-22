@@ -3,12 +3,12 @@
 See `distance.h` for a complete documentation.
 
 ## Reference ##
- * "A fast sweeping method for Eikonal equations"
-   by H. Zhao, Mathematics of computation, 74 (2005),pp. 603–627
-   https://www.math.uci.edu/~zhao/homepage/research_files/FSM.pdf
- * "Finding the Skeleton of 2D Shape and Contours: Implementation of Hamilton-Jacobi Skeleton"
-   by Yuchen He, Sung Ha Kang, Luis Álvarez (2020)
-   http://www.ipol.im/pub/art/2021/296/
+ 1. "A fast sweeping method for Eikonal equations"
+    by H. Zhao, Mathematics of computation, 74 (2005),pp. 603–627
+    https://www.math.uci.edu/~zhao/homepage/research_files/FSM.pdf
+ 2. "Finding the Skeleton of 2D Shape and Contours: Implementation of Hamilton-Jacobi Skeleton"
+    by Yuchen He, Sung Ha Kang, Luis Álvarez (2020)
+    http://www.ipol.im/pub/art/2021/296/
 
 ## Example ##
 The `test` directory contains the source code of a small program that generates a distance map from an input image.
@@ -25,10 +25,8 @@ A CMake configuration file is provided in order to build a static library and
 the associated documentation.
 A typical usage of CMake may be:
 ```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
+cmake -Bbuild -S.
+cmake --build build
 ```
 
 ## License ##
